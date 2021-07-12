@@ -12,7 +12,13 @@ Installation
  * Open IntelliJ Project Settings -> Code Styles, change the code style for the
    project to the one you want.
 
-
+Inspection
+<?xml version="1.0" encoding="UTF-8"?>
+<inspections version="1.0" is_locked="false">
+  <option name="myName" value="Square" />
+  <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="UnnecessarySemicolon" enabled="true" level="ERROR" enabled_by_default="true" />
+</inspections>
 License
 -------
 
